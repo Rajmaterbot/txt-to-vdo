@@ -129,7 +129,7 @@ keyboard = InlineKeyboardMarkup(
 
 @bot.on_message(filters.command(["start"]))
 async def account_login(bot: Client, m: Message):
-    editable = await m.reply_text(f"HELLO I AM TXT DOWNLOADER BOT  [{m.from_user.first_name}](tg://user?id={m.from_user.id})\nPress /Ak47")
+    editable = await m.reply_text(f"HELLO I AM TXT DOWNLOADER BOT  [{m.from_user.first_name}](tg://user?id={m.from_user.id})\nPress /bishnoi")
 
 
 @bot.on_message(filters.command("STOP"))
@@ -139,7 +139,7 @@ async def restart_handler(_, m):
 
 
 
-@bot.on_message(filters.command(["Ak47"]))
+@bot.on_message(filters.command(["bishnoi"]))
 async def account_login(bot: Client, m: Message):
     user = m.from_user.id if m.from_user is not None else None
     if user is not None and user not in sudo_users:
@@ -269,8 +269,8 @@ async def account_login(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**[ 🎬 ] Vid ID :** {str(count).zfill(3)}\n**File Title :** {name1} {res} {MR}.mp4\n**Batch Name :** {raw_text0}\n**Extracted By ➤ **Alex❤️'
-                cc1 = f'**[ 📕 ] Pdf ID :** {str(count).zfill(3)}\n**File Title :** {name1} {MR}.pdf \n**Batch Name :** {raw_text0}\n**Extracted By ➤ **Alex❤️'
+                cc = f'**[ 🎬 ] Vid ID :** {str(count).zfill(3)}\n**File Title :** {name1} {res} {MR}.mp4\n**Batch Name :** {raw_text0}\n𝗗ᴏᴡɴʟᴏᴀᴅ Bʏ ➤ 🅂ʙɪꜱʜɴᴏɪ 🥷\n@TheBishnoi29_Bot'
+                cc1 = f'**[ 📕 ] Pdf ID :** {str(count).zfill(3)}\n**File Title :** {name1} {MR}.pdf \n**Batch Name :** {raw_text0}\n𝗗ᴏᴡɴʟᴏᴀᴅ Bʏ ➤ 🅂ʙɪꜱʜɴᴏɪ 🥷\n@TheBishnoi29_Bot'
                 if "drive" in url:
                     try:
                         ka = await helper.download(url, name)
