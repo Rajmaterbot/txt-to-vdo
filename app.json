@@ -1,7 +1,7 @@
 {
     "name":"CAPTION",
     "description":"Download videos from various websites using this telegram bot",
-    "repository":"https://github.com/Sursa2929/txt-to-vdo",
+    "repository":"https://github.com/Rajmaterbot/txt-to-vdo",
     "buildpacks":[
         {
             "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
@@ -16,19 +16,19 @@
     "env": {
         "API_ID":{
             "description": "Get your telegram API ID from https://my.telegram.org",
-            "value":"20346550"
+            "value":"16712603"
         },
         "API_HASH":{
             "description":"Get your telegram API HASH from https://my.telegram.org",
-		    "value":"bc79c3bea7a626887bdc0871eecf0327"
+		    "value":"62e7bdb76c9d12f90021a5a90bb2402f"
         },
         "BOT_TOKEN":{
             "description":"Get from BotFather",
-            "value":"6647821815:AAE6sWGJJJEYJP8Zl54TLUQEJcfO4TO8sQY"
+            "value":"7186325862:AAFUxB2rKj0SjkN6h57keIdPD2cGAnG6pSc"
 	},
         "AUTH_USERS":{
             "description":"Admin/Owner/Friends ID Seperate by ','  Ex: 44578878,8878899",
-            "value":"5665231556"
+            "value":"1227089641"
         
         }
     }
